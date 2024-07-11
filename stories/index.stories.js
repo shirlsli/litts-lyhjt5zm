@@ -1,4 +1,5 @@
 import "../src/index.ts";
+import {html} from 'lit';
 
 export default {
   parameters: {
@@ -6,4 +7,4 @@ export default {
   },
 };
 
-export const story1 = () => '<my-counter></my-counter>';
+export const story1 = () => html`<my-counter></my-counter>`;
